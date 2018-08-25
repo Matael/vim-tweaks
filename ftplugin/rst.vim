@@ -7,5 +7,8 @@ nnoremap <Leader>K yyp:s/./*/g<cr>yykP
 nnoremap <Leader>l yyp:s/./~/g<cr>
 nnoremap <Leader>L yyp:s/./~/g<cr>yykP
 
+inoremap <silent> $$ $$<C-R>=UltiSnips#Anon(':math:\`$1\`', '$$')<cr>
+
+
 set sw=2
 set ts=2

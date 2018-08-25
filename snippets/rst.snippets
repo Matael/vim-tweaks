@@ -1,0 +1,25 @@
+snippet eq equation
+	.. math::
+
+		${1}
+
+	${0}
+
+snippet img image
+
+	.. image:: ${1}
+		${2:options...}
+
+	${0}
+
+snippet title title
+
+	${1}
+
+	:date: ${2}
+	:category: ${3}
+	:slug: ${4:${1/\s\+/-/g}}
+	:authors: ${5:MG}
+	:summary: ${6}
+
+	${0}
