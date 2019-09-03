@@ -1,4 +1,6 @@
 inoremap __ \
+inoremap _ç \
+inoremap è_ \
 inoremap <F8> <Esc>:w<cr>:!xelatex %<cr><cr>
 nnoremap <F8> :w<cr>:!xelatex %<cr><cr>
 nnoremap <leader>n ]s
